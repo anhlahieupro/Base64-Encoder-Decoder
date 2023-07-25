@@ -2,14 +2,16 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
     <title>Base64 Encoder/Decoder</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 
     <meta name="description"
-        content="Base64 Encoder/Decoder - Encode and decode text or binary data using Base64 encoding.">
+        content="Encode and decode data using Base64, a popular binary-to-text encoding scheme. The Base64 Encoder/Decoder is a free online tool that converts binary data, such as images, audio files, or other binary formats, into a text-based format, making it easily transferable over text-based channels like email or HTTP. Additionally, you can use this tool to decode Base64-encoded data back into its original binary format. Base64 encoding is widely used for transmitting data securely and efficiently across various systems, ensuring data integrity and compatibility. Simplify your data encoding and decoding tasks with this convenient and reliable Base64 conversion tool.">
 
-    <meta name="keywords" content="Base64, Encoder, Decoder, HTML, JavaScript, Encode, Decode, Binary">
+    <meta name="keywords"
+        content="base64 encoding, base64 decoding, base64 converter, base64 encoder online, base64 decoder online, base64 encode decode, base64 encode online, base64 decode online, base64 encoding tool, base64 decoding tool, base64 conversion, base64 string, base64 characters, base64 algorithm, base64 encoding format, base64 data encoding, base64 data decoding, base64 URL encoding, base64 MIME encoding, base64 data conversion">
 
     <style>
         body {
@@ -32,6 +34,24 @@
             outline: none;
         }
 
+        .bottom {
+            margin-top: 20px;
+        }
+
+        .bottom a {
+            margin: 0px;
+            padding: 0px;
+            font-size: 12px;
+            text-decoration: none;
+        }
+
+        .bottom p {
+            margin: 5px;
+            padding: 0px;
+            font-size: 12px;
+            text-decoration: none;
+        }
+
         .button-container {
             display: flex;
             justify-content: space-between;
@@ -42,6 +62,16 @@
             margin: 10px;
         }
     </style>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CPVME62DBV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-CPVME62DBV');
+    </script>
 </head>
 
 <body>
@@ -59,6 +89,15 @@
 
         <textarea id="output" placeholder="Result will appear here" readonly></textarea>
     </div>
+
+    <center class="bottom">
+        <p>
+            <a href="https://randomfuckingpassword.online">randomfuckingpassword</a> |
+            <a href="https://base64decoder.online">base64decoder</a><br>
+        </p>
+
+        <a href="mailto:hello@base64decoder.online">hello@base64decoder.online</a>
+    </center>
 
     <script>
         function encodeBase64() {
